@@ -15,6 +15,7 @@ import { routeMain as routeToPartners } from "pages/ToPartners";
 
 //components
 import TitleNavigation from "components/TitleNavigation";
+import Basket from "components/Basket";
 
 //styles
 import "./styles.scss";
@@ -70,11 +71,24 @@ const Header = () => {
             <p className="rus">Рус</p>
           </div>
         </div>
-        <div className="search">
+      </div>
+      <div className="searchPanel">
+        <div className="container">
           <TitleNavigation />
+          <div className="inputSearch">
+            <input className="input" type="text"></input>
+            <button className="btn"></button>
+          </div>
+          <a className="phoneCall" href="tel:+380442949117">
+            +38 (044) 294 91 17
+          </a>
+          <div className="mail">
+            <a href="mailto:support.ua">support@oman.ua</a>
+          </div>
+          <div className="like"></div>
+          <Basket />
         </div>
       </div>
-      <h1> Header</h1>
     </header>
   );
 };

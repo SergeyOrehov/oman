@@ -8,7 +8,7 @@
     .navigationPanel {
       display: flex;
       align-items: center;
-      padding: 32px 0 37px 0;
+      padding: 25px 0 25px 0;
       font-weight: 400;
       font-size: 18px;
       line-height: 22px;
@@ -49,6 +49,29 @@
         height: 100%;
         background: black;
         margin-left: 50%;
+      }
+    }
+  }
+  .searchPanel {
+    background: #4b4f52;
+    color: #fff;
+    padding: 10px 0 10px 0;
+    a {
+      color: #fff;
+    }
+    .container {
+      display: flex;
+      align-items: center;
+      .inputSearch {
+        input {
+          width: 300px;
+          background: #4b4f52;
+          border: 1px solid #fff;
+          height: 40px;
+        }
+      }
+      .basket {
+        margin-left: auto;
       }
     }
   }
