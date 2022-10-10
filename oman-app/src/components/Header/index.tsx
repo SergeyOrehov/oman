@@ -76,14 +76,16 @@ const Header = () => {
         <div className="container">
           <TitleNavigation />
           <div className="inputSearch">
-            <input className="input" type="text"></input>
+            <input className="input" type="text" placeholder="Знайти"></input>
             <button className="btn"></button>
           </div>
-          <a className="phoneCall" href="tel:+380442949117">
-            +38 (044) 294 91 17
-          </a>
+          <div className="phone">
+            <a className="phoneCall" href="tel:+380442949117">
+              +38 (044) 294 91 17
+            </a>
+          </div>
           <div className="mail">
-            <a href="mailto:support.ua">support@oman.ua</a>
+            <a href="mailto:support@oman.ua">support@oman.ua</a>
           </div>
           <div className="like"></div>
           <Basket />
