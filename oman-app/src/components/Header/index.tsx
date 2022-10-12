@@ -16,22 +16,19 @@ import { routeMain as routeToPartners } from "pages/ToPartners";
 //components
 import TitleNavigation from "components/TitleNavigation";
 import Basket from "components/Basket";
+import Logo from "components/Logo";
 
 //styles
 import "./styles.scss";
 
 const Header = () => {
-  const logoImage = require("assets/logo.png");
-
   return (
     <header className="header">
       <div className="container">
         <div className="navigationPanel">
-          <div className="logo">
-            <NavLink to={routeMainPage()} activeClassName={"linkactive"}>
-              <img src={logoImage} title="logo" alt="logo"></img>
-            </NavLink>
-          </div>
+          <NavLink to={routeMainPage()} activeClassName={"linkactive"}>
+            <Logo />
+          </NavLink>
           <form action="#">
             <select className="selectMenu" size={1} name="city">
               <option value="Киев">Киев</option>
@@ -87,7 +84,7 @@ const Header = () => {
           <div className="mail">
             <a href="mailto:support@oman.ua">support@oman.ua</a>
           </div>
-          <div className="like"></div>
+          <button className="btnLike"></button>
           <Basket />
         </div>
       </div>

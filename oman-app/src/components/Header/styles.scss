@@ -13,7 +13,7 @@
       font-size: 18px;
       line-height: 22px;
       .logo {
-        flex-basis: 200px;
+        width: 200px;
       }
       .selectMenu {
         padding: 15px 12px 12px 12px;
@@ -65,7 +65,7 @@
       .inputSearch {
         position: relative;
         input {
-          width: 300px;
+          width: 350px;
           background: #4b4f52;
           border: 1px solid #fff;
           height: 50px;
@@ -73,6 +73,11 @@
           font-weight: 400;
           font-size: 18px;
           line-height: 22px;
+          margin-left: 40px;
+          outline: none;
+        }
+        input:focus {
+          color: #fff;
         }
         .btn {
           position: absolute;
@@ -87,7 +92,7 @@
         }
       }
       .phone {
-        margin-left: 45px;
+        margin-left: 50px;
         .phoneCall {
           font-weight: 700;
           font-size: 18px;
@@ -106,7 +111,7 @@
         }
       }
       .mail {
-        margin-left: 45px;
+        margin-left: 50px;
         a {
           font-weight: 700;
           font-size: 18px;
@@ -123,6 +128,15 @@
           left: -22px;
           top: 6px;
         }
+      }
+      .btnLike {
+        width: 40px;
+        height: 40px;
+        background: url("../../assets/heart.png") no-repeat center top;
+        border: none;
+        cursor: pointer;
+        margin-left: 50px;
+        margin-top: 4px;
       }
       .basket {
         margin-left: auto;

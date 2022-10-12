@@ -5,9 +5,9 @@ import "./styles.scss";
 
 const Basket = () => {
   return (
-    <footer className="basket">
+    <div className="basket">
       <h1>Basket</h1>
-    </footer>
+    </div>
   );
 };
 

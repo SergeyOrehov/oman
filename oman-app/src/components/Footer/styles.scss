@@ -1,0 +1,30 @@
+.footer {
+  background: #4b4f52;
+  padding: 100px 0 100px 0;
+  .container {
+    width: 100%;
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Lato", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    .socialNetwork {
+      margin-top: 22px;
+      display: flex;
+      justify-content: space-between;
+      .socialNetwork__item {
+        display: inline-block;
+        margin: 3px auto 0;
+        width: 43px;
+        height: 43px;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        img {
+          margin: 3px auto 0;
+        }
+      }
+    }
+  }
+}
