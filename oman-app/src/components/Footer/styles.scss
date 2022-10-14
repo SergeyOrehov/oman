@@ -9,21 +9,54 @@
     font-family: "Lato", sans-serif;
     display: flex;
     justify-content: space-between;
-    .socialNetwork {
-      margin-top: 22px;
-      display: flex;
-      justify-content: space-between;
-      .socialNetwork__item {
-        display: inline-block;
-        margin: 3px auto 0;
-        width: 43px;
-        height: 43px;
-        background-color: #fff;
+    color: #fff;
+    font-size: 18px;
+
+    .wraper {
+      .socialNetwork {
+        margin-top: 22px;
         display: flex;
-        align-items: center;
-        img {
+        justify-content: space-between;
+        .socialNetwork__item {
+          display: inline-block;
           margin: 3px auto 0;
+          width: 43px;
+          height: 43px;
+          background-color: #fff;
+          display: flex;
+          align-items: center;
+          img {
+            margin: 3px auto 0;
+          }
         }
+      }
+    }
+    .infoBlock {
+      font-style: normal;
+      font-weight: 700;
+      line-height: 22px;
+      .phoneCall {
+        text-decoration: none;
+      }
+      a {
+        display: block;
+        color: #fff;
+        margin-bottom: 14px;
+      }
+    }
+    h3 {
+      font-weight: 700;
+      line-height: 22px;
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+    ul {
+      li {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 159.02%;
+        opacity: 0.6;
+        margin-bottom: 2px;
       }
     }
   }
