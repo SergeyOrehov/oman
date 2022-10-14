@@ -1,6 +1,8 @@
 .footer {
-  background: #4b4f52;
-  padding: 100px 0 100px 0;
+  .mainFooter {
+    background: #4b4f52;
+    padding: 100px 0 100px 0;
+  }
   .container {
     width: 100%;
     max-width: 1050px;
@@ -13,8 +15,11 @@
     font-size: 18px;
 
     .wraper {
+      .logo {
+        margin-bottom: 35px;
+      }
       .socialNetwork {
-        margin-top: 22px;
+        margin-top: 8px;
         display: flex;
         justify-content: space-between;
         .socialNetwork__item {
@@ -57,6 +62,35 @@
         line-height: 159.02%;
         opacity: 0.6;
         margin-bottom: 2px;
+      }
+    }
+  }
+  .copy {
+    background: #fff;
+    padding: 13px 0 13px 0;
+    .container {
+      display: block;
+      text-align: center;
+      position: relative;
+      p {
+        color: #000;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 132.02%;
+        opacity: 0.3;
+      }
+      .arrowUp {
+        position: absolute;
+        width: 50px;
+        height: 90px;
+        background: #e10811;
+        display: flex;
+        align-items: center;
+        bottom: -13px;
+        right: -50px;
+        img {
+          margin: 0 auto;
+        }
       }
     }
   }
