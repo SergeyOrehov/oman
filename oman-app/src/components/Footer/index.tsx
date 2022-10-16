@@ -6,9 +6,6 @@ import { NavLink } from "react-router-dom";
 //components
 import { routeMain as routeMainPage } from "pages/MainPage";
 
-//scroll
-import { Link, animateScroll as scroll } from "react-scroll";
-
 //styles
 import "./styles.scss";
 

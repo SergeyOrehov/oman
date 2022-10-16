@@ -1,0 +1,43 @@
+.blockLink {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 31px;
+  color: #000;
+  background: #eeeeee;
+  .container {
+    width: 100%;
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    .wrapper {
+      display: flex;
+      justify-content: space-between;
+      .wrapper__item {
+        flex-basis: 25%;
+        text-align: center;
+        position: relative;
+        padding: 45px 0 40px 0;
+        a {
+          display: inline-block;
+          margin: 0 auto;
+          cursor: pointer;
+          margin-bottom: 14px;
+        }
+        .gradient {
+          position: absolute;
+          width: 52px;
+          height: 100%;
+          background: linear-gradient(
+            90deg,
+            #d9d9d9 0%,
+            rgba(217, 217, 217, 0) 100%
+          );
+          transform: matrix(-1, 0, 0, 1, 0, 0);
+          top: 0;
+          right: 0;
+        }
+      }
+    }
+  }
+}
