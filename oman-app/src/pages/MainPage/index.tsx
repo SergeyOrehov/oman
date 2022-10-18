@@ -13,12 +13,53 @@ import "./styles.scss";
 
 const MainPage = () => {
   const arrowDown = require("assets/arrowDown.png");
+  const arrowRight = require("assets/arrowRight.png");
+  const publications = require("assets/publications_img.png");
 
   const [show, setShow] = useState(false);
 
   return (
     <div className="mainPage">
       <h1> MainPage</h1>
+      <section className="newPublications">
+        <div className="container">
+          <h2>Свежие публикации</h2>
+          <div className="publications">
+            <div className="publications__item">
+              <img src={publications} alt="image" title="image"></img>
+              <p className="text">
+                Разные виды чердачных лестниц. На чем остановить свой выбор?
+              </p>
+              <a>
+                <p>Детально</p>
+                <img src={arrowRight} title="arrow" alt="arrow"></img>
+              </a>
+            </div>
+            <div className="publications__item">
+              <img src={publications} alt="image" title="image"></img>
+              <p className="text">
+                Преимущества чердачных лестниц OMAN POLAR PLUS
+              </p>
+              <a>
+                <p>Детально</p>
+                <img src={arrowRight} title="arrow" alt="arrow"></img>
+              </a>
+            </div>
+            <div className="publications__item">
+              <img src={publications} alt="image" title="image"></img>
+              <p className="text">
+                Что нужно учитывать при выборе чердачной лестницы, если чердак
+                неотапливаемый
+              </p>
+              <a>
+                <p>Детально</p>
+                <img src={arrowRight} title="arrow" alt="arrow"></img>
+              </a>
+            </div>
+          </div>
+          <a className="allNews">Все новости</a>
+        </div>
+      </section>
       <section className="aboutUsText">
         <div className="container">
           <h2>Про OMAN</h2>
